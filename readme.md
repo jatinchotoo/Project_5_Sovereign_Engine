@@ -1,24 +1,57 @@
-# Project 5: Sovereign Engine 🇿🇦
-### Strategic Advisory & Capital Allocation Intelligence
+Project 5: Sovereign Alpha – Treasury & Capital Engine 🇿🇦
 
-## 📌 Executive Summary
-The **Sovereign Engine** is a deterministic decision-intelligence tool designed for CFOs and Executive Leadership. It bridges the gap between raw financial data and strategic action by synthesizing macro-economic signals, statutory tax obligations (SARS 27%), and risk-adjusted capital allocation models.
+📌 Executive Summary
 
-## 🛠 Strategic Features
-* **Multi-Layer Ledger Processing:** Automates the pipeline from raw GL data to consolidated financial statements.
-* **ZAR Statutory Compliance:** Integrated South African corporate tax logic (27%) and liquidity monitoring.
-* **Risk Signal Synthesis:** Uses modern Python dataclasses to weight macroeconomic tightening, business resilience, and geopolitical exposure.
-* **Capital Allocation Engine:** Employs a risk-adjustment factor to provide dynamic guidance on Growth Investment vs. Defensive Reserves.
+The Sovereign Engine is a high-performance financial intelligence tool designed for CFOs and Global Treasury Management. It bridges the gap between raw General Ledger data and executive decision-making by synthesizing multi-currency ledgers, statutory tax obligations (SARS 27%), and risk-adjusted capital allocation models.
 
-## 📊 Technical Architecture
-The engine is built on a modular, 5-layer architecture:
-1.  **Layer 1:** Core Ledger Generation.
-2.  **Layer 2:** Audit Controls & Validation.
-3.  **Layer 3:** KPI & Tax Provisioning.
-4.  **Layer 4:** Strategic Simulation & Logic.
-5.  **Final Engine:** Executive Advisory Reporting.
+🛠 Strategic "Niche" Features
 
-## 🚀 How to Execute
-To generate the Strategic Advisory Report, execute the master script:
-```bash
-python sovereign_engine_final.py
+Treasury Command Dashboard: A real-time interface using Streamlit and React (Lucide-ready) to monitor capital health across global entities.
+
+Multi-Currency Consolidation: Automated FX translation (USD/GBP/EUR to ZAR) with Intercompany (Account 2000) elimination logic.
+
+Investment Signal Heuristics: Logic-driven alerts (Strong Buy / Liquidate) based on real-time cash-to-equity weighting.
+
+Monte Carlo Risk Modeling: 1,000-iteration stress testing to calculate the "Probability of Profit" and 95% Confidence Value-at-Risk (VaR).
+
+High-Volume Scalability: Stress-tested to ingest and process 100,000+ transactions in under 2 seconds.
+
+🏗 Modular Data Pipeline (5-Layer Architecture)
+
+Layer 1 (Ledger): Deterministic synthetic data generation following IFRS standards (ZAR/USD).
+
+Layer 2 (Governance): Automated audit controls to prevent double-entry violations and ensure 4-digit CoA mapping.
+
+Layer 3 (KPIs & Tax): Real-time calculation of EBITDA, Current Ratio, and 27% South African Corporate Tax provisioning.
+
+Layer 4 (Simulation): Strategic risk forecasting using NumPy-based volatility modeling.
+
+Layer 5 (Reporting): Board-ready Excel exports with automated charting and executive summaries.
+
+🚀 Technical Stack
+
+Backend: Python 3.12 (Pandas, NumPy)
+
+Frontend/Visuals: Streamlit, Plotly, React (Tailwind CSS)
+
+APIs: Real-time FX Engine integration
+
+Version Control: Git/GitHub
+
+📊 How to Execute
+
+To run the full suite and generate the Strategic Advisory Report, execute the layers in sequence:
+
+# 1. Generate and Validate Ledger
+python layer1_ledger.py
+python layer2_controls_validation.py
+
+# 2. Run Analytics & Simulation
+python layer3_kpis_engine.py
+python layer4_simulation_engine.py
+
+# 3. Launch Visual Command Center
+streamlit run sovereign_alpha.py
+
+
+Developed by Jatin - Finance & Tech Integration Specialist
