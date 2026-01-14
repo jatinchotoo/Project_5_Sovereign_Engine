@@ -1,59 +1,49 @@
-Project 5: Sovereign Alpha – Treasury & Capital Engine 🇿🇦
+Sovereign Alpha: Treasury & Capital Intelligence Engine 🇿🇦
 
-📌 Executive Summary
+Sovereign Alpha is a modular treasury and capital intelligence engine designed to support CFO-level decision-making in multi-entity, multi-currency environments. The system translates structured ledger data into deterministic, risk-aware capital guidance, statutory tax provisioning, and board-ready reporting.
 
-The Sovereign Engine is a high-performance financial intelligence tool designed for CFOs and Global Treasury Management. It bridges the gap between raw General Ledger data and executive decision-making by synthesizing multi-currency ledgers, statutory tax obligations (SARS 27%), and risk-adjusted capital allocation models.
+🎯 Executive Overview
 
-🛠 Strategic Finance Logic (Niche Specialization)
+In volatile macroeconomic environments, finance leadership requires Decision Intelligence — the ability to bridge accounting records with strategic capital allocation under uncertainty. Sovereign Alpha automates the ingestion of IFRS-aligned financial data to produce transparent guidance on capital health, statutory obligations (27% South African corporate income tax), and liquidity stress scenarios.
 
-This project focuses on high-stakes treasury "niches" often overlooked by standard ERP exports:
+The engine is intentionally deterministic, prioritizing auditability, governance, and executive trust over black-box optimization.
 
-Treasury Command Dashboard: A real-time interface using Streamlit and React (Lucide-ready) to monitor capital health across global entities.
+Core Capabilities:
 
-Multi-Currency Consolidation: Automated FX translation (USD/GBP/EUR to ZAR) with Intercompany (Account 2000) elimination logic to prevent consolidated revenue inflation.
+Multi-Currency Consolidation: ZAR-base reporting with automated FX translation and intercompany elimination logic to prevent consolidated revenue distortion.
 
-Investment Signal Heuristics: Logic-driven alerts (Strong Buy / Liquidate) based on real-time cash-to-equity weighting.
+Deterministic Capital Allocation Logic: Strategic signal weighting to inform disciplined investment, defensive capital, and liquidity reserve thresholds.
 
-Monte Carlo Risk Modeling: 1,000-iteration stress testing to calculate the "Probability of Profit" and 95% Confidence Value-at-Risk (VaR).
+Statutory Tax Provisioning (South Africa): Explicit alignment to South African corporate income tax regulation (27% CIT), embedded directly into capital calculations.
 
-South African Statutory Alignment: Hardcoded provisioning for the 27% SARS Corporate Tax rate and ZAR-base reporting.
+Risk & Liquidity Stress Testing: Scenario-based stress testing using simulation-driven methodology to assess downside exposure and capital resilience.
 
-🏗 Modular Data Pipeline (5-Layer Architecture)
+🏗 System Architecture (5-Layer Design)
 
-Layer 1 (Ledger): Deterministic synthetic data generation following IFRS standards (ZAR/USD).
+The engine employs a modular pipeline to ensure auditability, governance, and scalable system design:
 
-Layer 2 (Governance): Automated audit controls to prevent double-entry violations and ensure 4-digit CoA mapping.
+Layer 1: Ledger Generation – IFRS-compliant synthetic ledger data representing multi-entity, multi-currency operations.
 
-Layer 3 (KPIs & Tax): Real-time calculation of EBITDA, Current Ratio, and 27% South African Corporate Tax provisioning.
+Layer 2: Governance & Controls – Automated validation for double-entry integrity and Chart of Accounts (CoA) compliance.
 
-Layer 4 (Simulation): Strategic risk forecasting using NumPy-based volatility modeling.
+Layer 3: KPI & Metrics Engine – Calculation of EBITDA, liquidity ratios, and statutory tax provisioning.
 
-Layer 5 (Reporting): Board-ready Excel exports with automated charting and executive summaries.
+Layer 4: Strategic Simulation – Scenario-based stress testing and simulation-driven capital allocation analysis.
 
-🚀 Technical Stack
+Layer 5: Reporting & Visualization – Executive-grade dashboards (Streamlit) and board-ready Excel outputs.
 
-Backend: Python 3.12 (Pandas, NumPy)
+🛠 Technology Stack
 
-Frontend/Visuals: Streamlit, Plotly, React (Tailwind CSS)
+Language: Python 3.12 (Pandas, NumPy, Plotly)
 
-APIs: Real-time FX Engine integration
+Visualization: Streamlit (executive dashboards)
 
-Version Control: Git/GitHub
+Reporting: OpenPyXL (Excel automation)
 
-📊 How to Execute
+Workflow: Git / GitHub (version control and architectural evolution)
 
-To run the full suite and generate the Strategic Advisory Report, execute the layers in sequence:
+📌 Design Philosophy
 
-# 1. Generate and Validate Ledger
-python layer1_ledger.py
-python layer2_controls_validation.py
+Sovereign Alpha is designed as a deterministic and auditable decision engine, suitable for regulated financial environments. All outputs are traceable to underlying logic and inputs, supporting executive review, governance oversight, and audit requirements.
 
-# 2. Run Analytics & Simulation
-python layer3_kpis_engine.py
-python layer4_simulation_engine.py
-
-# 3. Launch Visual Command Center
-streamlit run sovereign_alpha.py
-
-
-Developed by Jatin - Finance & Tech Integration Specialistgit add .
+Developed by Jatin — Bridging Finance, Governance, and Technology.
