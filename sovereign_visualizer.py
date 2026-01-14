@@ -7,7 +7,6 @@ def generate_strategic_dashboard():
     """
     Generates an advanced Strategic Finance Dashboard for Project 5.
     Output: sovereign_dashboard.png
-    Includes: Capital Allocation, Risk Signal Analysis, and Liquidity Ratios.
     """
     # 1. Setup Data based on the Sovereign Engine Output
     allocation_data = {
@@ -15,17 +14,16 @@ def generate_strategic_dashboard():
         'Amount_USD': [163800000, 175000000, 161200000]
     }
     
-    # 2. Risk Signal Data (from SovereignEngine signals)
     risk_signals = {
         'Signal': ['Macro Tightening', 'Core Resilience', 'Tech Leverage', 'Geopolitical'],
         'Impact Score': [-0.18, 0.22, 0.15, -0.10],
-        'Risk Level': [3, 1, 2, 2]  # Numeric mapping for heatmap
+        'Risk Level': [3, 1, 2, 2]
     }
     
     df_alloc = pd.DataFrame(allocation_data)
     df_risk = pd.DataFrame(risk_signals)
     
-    # 3. Initialize the visual style
+    # 2. Initialize the visual style
     plt.style.use('ggplot')
     fig = plt.figure(figsize=(18, 10))
     gs = fig.add_gridspec(2, 2)
@@ -35,8 +33,9 @@ def generate_strategic_dashboard():
     # --- CHART 1: PIE CHART (Capital Composition) ---
     ax1 = fig.add_subplot(gs[0, 0])
     colors = ['#2E86C1', '#28B463', '#D35400']
+    # FIX: changed 'fontWeight' (CamelCase) to 'fontweight' (lowercase)
     ax1.pie(df_alloc['Amount_USD'], labels=df_alloc['Category'], autopct='%1.1f%%', 
-            startangle=140, colors=colors, explode=(0.05, 0, 0), shadow=True, textprops={'fontWeight': 'bold'})
+            startangle=140, colors=colors, explode=(0.05, 0, 0), shadow=True, textprops={'fontweight': 'bold'})
     ax1.set_title('Strategic Capital Weighting', fontsize=14, pad=20)
 
     # --- CHART 2: BAR CHART (Allocation Totals) ---
@@ -56,20 +55,19 @@ def generate_strategic_dashboard():
     ax3.set_title('Strategic Signal Impact Analysis', fontsize=14)
     ax3.set_xlabel('Weighted Score Impact')
 
-    # --- CHART 4: RISK HEATMAP (Visual Risk Assessment) ---
+    # --- CHART 4: RISK HEATMAP ---
     ax4 = fig.add_subplot(gs[1, 1])
     heatmap_data = df_risk.pivot_table(index='Signal', values='Risk Level')
     sns.heatmap(heatmap_data, annot=True, cmap='RdYlGn_r', cbar=False, ax=ax4)
     ax4.set_title('Risk Concentration Heatmap (1=Low, 3=High)', fontsize=14)
 
-    # 4. Final Branding and Save
-    plt.figtext(0.5, 0.02, "Sovereign Engine v1.0 | Developed by Jatin Chotoo | Finance-Tech Integrated Portfolio", 
+    # 3. Final Branding and Save
+    plt.figtext(0.5, 0.02, "Sovereign Engine v1.0 | Developed by Jatin Chotoo | Strategic Finance Division", 
                 ha="center", fontsize=12, fontweight='bold', bbox={"facecolor":"#2E86C1", "alpha":0.1, "pad":8})
     
     plt.tight_layout(rect=[0, 0.05, 1, 0.95])
     plt.savefig('sovereign_dashboard.png', dpi=300)
-    print("\nSUCCESS: Professional Strategic Dashboard generated as 'sovereign_dashboard.png'")
+    print("\nSUCCESS: Dashboard generated as 'sovereign_dashboard.png'")
 
 if __name__ == "__main__":
     generate_strategic_dashboard()
-    
