@@ -1,0 +1,51 @@
+txn_id,txn_date,entity,currency,account_code,account_name,debit,credit
+Sov-1000,2023-05-03,Sovereign Germany,EUR,1000,Cash,168.59,0.0
+Sov-1001,2023-10-12,Sovereign Germany,EUR,1000,Cash,4532.63,0.0
+Sov-1002,2023-03-14,Sovereign Germany,EUR,4000,Revenue,0.0,1826.13
+Sov-1003,2023-09-21,Sovereign Germany,EUR,5000,Operating Expenses,3894.44,0.0
+Sov-1004,2023-01-02,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3143.83
+Sov-1005,2023-01-29,Sovereign Germany,EUR,1000,Cash,968.75,0.0
+Sov-1006,2023-06-05,Sovereign Germany,EUR,5000,Operating Expenses,4109.65,0.0
+Sov-1007,2023-11-27,Sovereign Germany,EUR,4000,Revenue,0.0,2626.24
+Sov-1008,2023-07-23,Sovereign Germany,EUR,5000,Operating Expenses,2717.9,0.0
+Sov-1009,2023-05-17,Sovereign Germany,EUR,1000,Cash,2333.84,0.0
+Sov-1010,2023-06-28,Sovereign Germany,EUR,1000,Cash,3638.7,0.0
+Sov-1011,2023-11-14,Sovereign Germany,EUR,2000,Intercompany Payables,3649.77,0.0
+Sov-1012,2023-12-31,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,1971.93
+Sov-1013,2023-01-27,Sovereign Germany,EUR,2000,Intercompany Payables,1827.73,0.0
+Sov-1014,2023-10-31,Sovereign Germany,EUR,5000,Operating Expenses,4660.37,0.0
+Sov-1015,2023-08-04,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,4237.81
+Sov-1016,2023-09-09,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,842.23
+Sov-1017,2023-03-28,Sovereign Germany,EUR,4000,Revenue,0.0,3621.61
+Sov-1018,2023-04-13,Sovereign Germany,EUR,5000,Operating Expenses,1189.69,0.0
+Sov-1019,2023-11-20,Sovereign Germany,EUR,1000,Cash,1477.28,0.0
+Sov-1020,2023-06-15,Sovereign Germany,EUR,5000,Operating Expenses,3690.05,0.0
+Sov-1021,2023-01-19,Sovereign Germany,EUR,4000,Revenue,0.0,3843.71
+Sov-1022,2023-08-15,Sovereign Germany,EUR,4000,Revenue,0.0,704.43
+Sov-1023,2023-02-14,Sovereign Germany,EUR,4000,Revenue,0.0,4683.28
+Sov-1024,2023-02-24,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3358.86
+Sov-1025,2023-09-30,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3841.0
+Sov-1026,2023-07-14,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,514.94
+Sov-1027,2023-05-15,Sovereign Germany,EUR,5000,Operating Expenses,1571.46,0.0
+Sov-1028,2023-12-28,Sovereign Germany,EUR,5000,Operating Expenses,1189.47,0.0
+Sov-1029,2023-08-15,Sovereign Germany,EUR,4000,Revenue,0.0,4149.1
+Sov-1030,2023-05-04,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,293.62
+Sov-1031,2023-09-24,Sovereign Germany,EUR,1000,Cash,1420.16,0.0
+Sov-1032,2023-12-27,Sovereign Germany,EUR,5000,Operating Expenses,2587.48,0.0
+Sov-1033,2023-09-24,Sovereign Germany,EUR,2000,Intercompany Payables,4645.23,0.0
+Sov-1034,2023-08-07,Sovereign Germany,EUR,2000,Intercompany Payables,4755.27,0.0
+Sov-1035,2023-09-10,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3583.5
+Sov-1036,2023-02-08,Sovereign Germany,EUR,1000,Cash,4130.45,0.0
+Sov-1037,2023-11-24,Sovereign Germany,EUR,2000,Intercompany Payables,2149.62,0.0
+Sov-1038,2023-11-22,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3402.55
+Sov-1039,2023-05-19,Sovereign Germany,EUR,5000,Operating Expenses,4743.86,0.0
+Sov-1040,2023-05-03,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3362.48
+Sov-1041,2023-09-07,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,210.38
+Sov-1042,2023-11-30,Sovereign Germany,EUR,4000,Revenue,0.0,1721.68
+Sov-1043,2023-12-26,Sovereign Germany,EUR,1000,Cash,605.07,0.0
+Sov-1044,2023-01-16,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,2853.31
+Sov-1045,2023-10-13,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,3003.0
+Sov-1046,2023-05-28,Sovereign Germany,EUR,5000,Operating Expenses,170.08,0.0
+Sov-1047,2023-05-17,Sovereign Germany,EUR,5000,Operating Expenses,2534.24,0.0
+Sov-1048,2023-08-09,Sovereign Germany,EUR,2000,Intercompany Payables,0.0,1204.36
+Sov-1049,2023-11-02,Sovereign Germany,EUR,5000,Operating Expenses,3492.21,0.0

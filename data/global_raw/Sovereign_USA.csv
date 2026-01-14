@@ -1,0 +1,51 @@
+txn_id,txn_date,entity,currency,account_code,account_name,debit,credit
+Sov-1000,2023-03-30,Sovereign USA,USD,2000,Intercompany Payables,0.0,3848.4
+Sov-1001,2023-04-09,Sovereign USA,USD,4000,Revenue,0.0,1372.07
+Sov-1002,2023-06-29,Sovereign USA,USD,5000,Operating Expenses,539.47,0.0
+Sov-1003,2023-04-26,Sovereign USA,USD,5000,Operating Expenses,3879.22,0.0
+Sov-1004,2023-11-20,Sovereign USA,USD,4000,Revenue,0.0,1341.5
+Sov-1005,2023-01-12,Sovereign USA,USD,2000,Intercompany Payables,0.0,2517.89
+Sov-1006,2023-03-06,Sovereign USA,USD,2000,Intercompany Payables,0.0,4459.66
+Sov-1007,2023-11-20,Sovereign USA,USD,5000,Operating Expenses,2553.28,0.0
+Sov-1008,2023-07-25,Sovereign USA,USD,2000,Intercompany Payables,3363.15,0.0
+Sov-1009,2023-03-24,Sovereign USA,USD,4000,Revenue,0.0,1518.94
+Sov-1010,2023-05-06,Sovereign USA,USD,4000,Revenue,0.0,1753.37
+Sov-1011,2023-06-24,Sovereign USA,USD,1000,Cash,977.87,0.0
+Sov-1012,2023-07-13,Sovereign USA,USD,2000,Intercompany Payables,0.0,540.7
+Sov-1013,2023-01-22,Sovereign USA,USD,5000,Operating Expenses,2183.74,0.0
+Sov-1014,2023-01-25,Sovereign USA,USD,2000,Intercompany Payables,0.0,2234.1
+Sov-1015,2023-10-13,Sovereign USA,USD,1000,Cash,1927.6,0.0
+Sov-1016,2023-03-24,Sovereign USA,USD,1000,Cash,3494.74,0.0
+Sov-1017,2023-11-08,Sovereign USA,USD,2000,Intercompany Payables,0.0,1235.22
+Sov-1018,2023-09-23,Sovereign USA,USD,1000,Cash,3701.1,0.0
+Sov-1019,2023-09-10,Sovereign USA,USD,5000,Operating Expenses,4690.87,0.0
+Sov-1020,2023-03-18,Sovereign USA,USD,5000,Operating Expenses,4575.01,0.0
+Sov-1021,2023-03-23,Sovereign USA,USD,2000,Intercompany Payables,0.0,716.35
+Sov-1022,2023-11-16,Sovereign USA,USD,2000,Intercompany Payables,0.0,1637.54
+Sov-1023,2023-05-11,Sovereign USA,USD,4000,Revenue,0.0,549.97
+Sov-1024,2023-05-04,Sovereign USA,USD,4000,Revenue,0.0,4099.44
+Sov-1025,2023-04-22,Sovereign USA,USD,2000,Intercompany Payables,0.0,1975.61
+Sov-1026,2023-07-07,Sovereign USA,USD,1000,Cash,1905.94,0.0
+Sov-1027,2023-02-25,Sovereign USA,USD,2000,Intercompany Payables,0.0,1530.1
+Sov-1028,2023-07-18,Sovereign USA,USD,2000,Intercompany Payables,3710.16,0.0
+Sov-1029,2023-08-06,Sovereign USA,USD,4000,Revenue,0.0,2756.8
+Sov-1030,2023-03-29,Sovereign USA,USD,4000,Revenue,0.0,894.53
+Sov-1031,2023-10-16,Sovereign USA,USD,4000,Revenue,0.0,2975.53
+Sov-1032,2023-08-09,Sovereign USA,USD,1000,Cash,2090.5,0.0
+Sov-1033,2023-07-03,Sovereign USA,USD,4000,Revenue,0.0,1147.97
+Sov-1034,2023-08-19,Sovereign USA,USD,4000,Revenue,0.0,1564.03
+Sov-1035,2023-06-09,Sovereign USA,USD,5000,Operating Expenses,2829.82,0.0
+Sov-1036,2023-06-10,Sovereign USA,USD,4000,Revenue,0.0,1578.41
+Sov-1037,2023-09-16,Sovereign USA,USD,2000,Intercompany Payables,0.0,1954.83
+Sov-1038,2023-02-15,Sovereign USA,USD,4000,Revenue,0.0,4124.83
+Sov-1039,2023-07-11,Sovereign USA,USD,2000,Intercompany Payables,0.0,1737.54
+Sov-1040,2023-06-27,Sovereign USA,USD,5000,Operating Expenses,4166.28,0.0
+Sov-1041,2023-11-11,Sovereign USA,USD,4000,Revenue,0.0,4198.96
+Sov-1042,2023-10-16,Sovereign USA,USD,2000,Intercompany Payables,0.0,4099.93
+Sov-1043,2023-03-17,Sovereign USA,USD,1000,Cash,2279.38,0.0
+Sov-1044,2023-12-31,Sovereign USA,USD,2000,Intercompany Payables,0.0,2186.84
+Sov-1045,2023-06-17,Sovereign USA,USD,2000,Intercompany Payables,1413.28,0.0
+Sov-1046,2023-06-17,Sovereign USA,USD,2000,Intercompany Payables,0.0,3886.0
+Sov-1047,2023-01-19,Sovereign USA,USD,2000,Intercompany Payables,0.0,4957.61
+Sov-1048,2023-11-19,Sovereign USA,USD,1000,Cash,4012.23,0.0
+Sov-1049,2023-06-05,Sovereign USA,USD,2000,Intercompany Payables,0.0,4434.94
